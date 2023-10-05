@@ -4,21 +4,39 @@
   &__container {
     padding-top: 1rem;
   }
+
+  &__btn {
+    z-index: 1;
+    color: rgba(232, 232, 232);
+    border: 2px solid white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    
+  }
+  &__btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    animation: pulse;
+    animation-duration: 0.7s;
+  }
+
   &__content {
     width: 100%;
     overflow: hidden;
-    height: 80vh;
+    height: 85vh;
     position: relative;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
   }
 
   &__text {
     color: white;
-    position: absolute;
   }
 
 }
@@ -30,10 +48,9 @@
   padding-right: 1rem;
   padding-left: 1rem;
   border-radius: 1rem;
-  background-color: rgba(232, 232, 232, 0.4);
+  background-color: rgba(232, 232, 232);
   width: 100%;
   height: 56px;
-  // margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
