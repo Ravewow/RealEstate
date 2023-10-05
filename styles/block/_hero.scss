@@ -1,0 +1,73 @@
+.hero {
+  height: 100vh;
+  &__content {
+    width: 100%;
+    overflow: hidden;
+    height: 80vh;
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__text {
+    color: white;
+    position: absolute;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(232, 232, 232, 0.4);
+  width: 100%;
+  height: 56px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu__list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  @include phones {
+    display: none;
+  }
+}
+
+.video-wrap {
+  position: absolute;
+}
+
+#video-bg {
+  object-fit: cover;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.hero__text h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 4vw;
+  mix-blend-mode: difference;
+  text-align: start;
+  
+  @include phones {
+    font-size: 8vw;
+  }
+
+  @include tablets {
+    font-size: 8vw;
+  }
+}
+
+.two {
+  
+}

@@ -1,0 +1,156 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+.maincontent {
+  height: 100%;
+  position: relative;
+}
+
+.hero {
+  height: 100vh;
+}
+.hero__content {
+  width: 100%;
+  overflow: hidden;
+  height: 80vh;
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero__text {
+  color: white;
+  position: absolute;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(232, 232, 232, 0.4);
+  width: 100%;
+  height: 56px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu__list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .menu__list {
+    display: none;
+  }
+}
+
+.video-wrap {
+  position: absolute;
+}
+
+#video-bg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.hero__text h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 4vw;
+  mix-blend-mode: difference;
+  text-align: start;
+}
+@media screen and (max-width: 480px) {
+  .hero__text h1 {
+    font-size: 8vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero__text h1 {
+    font-size: 8vw;
+  }
+}/*# sourceMappingURL=main.css.map */
