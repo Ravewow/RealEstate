@@ -85,6 +85,9 @@ footer {
 .hero {
   height: 100vh;
 }
+.hero__container {
+  padding-top: 1rem;
+}
 .hero__content {
   width: 100%;
   overflow: hidden;
@@ -111,7 +114,6 @@ footer {
   background-color: rgba(232, 232, 232, 0.4);
   width: 100%;
   height: 56px;
-  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -153,4 +155,8 @@ footer {
   .hero__text h1 {
     font-size: 8vw;
   }
+}
+
+.two {
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */
